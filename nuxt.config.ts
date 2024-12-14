@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  css: ["bootstrap/dist/css/bootstrap.min.css"],
+  css: ["bootstrap/dist/css/bootstrap.min.css","material-design-icons/iconfont/material-icons.css"],
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
   app: {
@@ -13,4 +13,5 @@ export default defineNuxtConfig({
       ],
     },
   },
+  components: true,
 });
